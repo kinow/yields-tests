@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sample</groupId>
+  <artifactId>yields-sample</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>yielder</groupId>
+  		<artifactId>yielder</artifactId>
+  		<version>0.3.0</version>
+  		<scope>system</scope>
+  		<systemPath>${project.basedir}/yielder-0.3.0.jar</systemPath>
+  	</dependency>
+  	<dependency>
+  		<groupId>java-yield</groupId>
+  		<artifactId>java-yield</artifactId>
+  		<version>1.0</version>
+  		<scope>system</scope>
+  		<systemPath>${project.basedir}/java-yield-1.0-SNAPSHOT.jar</systemPath>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.commons</groupId>
+  		<artifactId>commons-lang3</artifactId>
+  		<version>3.1</version>
+  	</dependency>
+  </dependencies>
+</project>
